@@ -10,6 +10,10 @@ namespace DatesAndTimes
     {
         static void Main(string[] args)
         {
+            DateTime myValue = DateTime.Now;
+
+            Console.WriteLine(myValue);
+            Console.ReadLine();
         }
     }
 }
